@@ -2,17 +2,18 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 main{
     background-color: #2d4f50;
-    padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
     justify-content: space-around;
-
+    height: 100vh;
+    overflow: hidden;
 }
 
 .main2-container{
@@ -32,9 +33,11 @@ main{
   background-color: #0e8488;
   padding: 30px;
   border-radius: 8px;
-  width: 300px;
+  min-width: 300px;
   margin-right: 20px;
   box-sizing: border-box;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .entradas-container {
