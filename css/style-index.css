@@ -18,21 +18,28 @@ main{
 
 .main2-container{
     flex-direction: row;
-    border-color: black;
-    border-width: 10px;
+    display: flex;
+    border: 5px solid;
     align-items: center;
+    justify-content: space-between;
 }
 
 .main2-container h1{
     color: #cde7e6;
-    margin-bottom: 40px;
     align-self: center;
+    font-size: 400%;
+    padding: 10px;
+}
+
+.main2-container img{
+  align-self: center;
+  padding: 10px;
 }
 
 .login-container {
   background-color: #0e8488;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 30px;
   min-width: 300px;
   margin-right: 20px;
   box-sizing: border-box;
